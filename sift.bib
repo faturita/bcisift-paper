@@ -1,4 +1,378 @@
-﻿@article{Dirac1953888,
+@techreport{Iijima1962,
+author = {Iijima, Taizo},
+booktitle = {Papers of Technical Group on Automata and Automatic Control, IECE},
+institution = {Electrotechnical Laboratory ETL, Tokyo Institute Of Technology},
+keywords = {Linear Scale-Space Theory},
+mendeley-groups = {SIFT.Papers},
+mendeley-tags = {Linear Scale-Space Theory},
+pages = {5},
+title = {{Observation theory of two-dimensional visual patterns}},
+year = {1962}
+}
+
+@inproceedings{Witkin1983,
+author = {Witkin, Andrew P.},
+title = {Scale-Space Filtering},
+year = {1983},
+publisher = {Morgan Kaufmann Publishers Inc.},
+address = {San Francisco, CA, USA},
+abstract = {The extrema in a signal and its first few derivatives provide a useful general-purpose qualitative description for many kinds of signals. A fundamental problem in computing such descriptions is scale: a derivative must be taken over some neighborhood, but there is seldom a principled basis for choosing its size. Scale-space filtering is a method that describes signals qualitatively, managing the ambiguity of scale in an organized and natural way. The signal is first expanded by convolution with gaussian masks over a continuum of sizes. This "scale-space" image is then collapsed, using its qualitative structure, into a tree providing a concise but complete qualitative description covering all scales of observation. The description is further refined by applying a stability criterion, to identify events that persist of large changes in scale.},
+booktitle = {Proceedings of the Eighth International Joint Conference on Artificial Intelligence - Volume 2},
+pages = {1019–1022},
+numpages = {4},
+location = {Karlsruhe, West Germany},
+series = {IJCAI'83}
+}
+
+@article{HUBEL1965,
+author = {Hubel, D. H. and Wiesel, T. N.},
+doi = {10.1152/jn.1965.28.2.229},
+file = {::},
+issn = {00223077},
+journal = {Journal of neurophysiology},
+keywords = {AXONS,BRAIN ELECTROPHYSIOLOGY,BRAIN MAPPING,CATS,EXPERIMENTAL LAB STUDY,GENICULATE BODIES,MICROSCOPY,OCCIPITAL LOBE,RECEPTORS, NEURAL,RETINA,STAINS AND STAINING,VISION,VISUAL FIELDS},
+mendeley-groups = {SIFT.Papers},
+month = {mar},
+pages = {229--289},
+pmid = {14283058},
+title = {{Receptive Fields and Functional Architecture in Two Nonstriate Visual Areas (18 and 19) of the Cat}},
+url = {https://journals.physiology.org/doi/abs/10.1152/jn.1965.28.2.229},
+volume = {28},
+year = {1965}
+}
+
+
+@article{Lindeberg2013,
+abstract = {A receptive field constitutes a region in the visual field where a visual cell or a visual operator responds to visual stimuli. This paper presents a theory for what types of receptive field profiles can be regarded as natural for an idealized vision system, given a set of structural requirements on the first stages of visual processing that reflect symmetry properties of the surrounding world. These symmetry properties include (i) covariance properties under scale changes, affine image deformations, and Galilean transformations of space-time as occur for real-world image data as well as specific requirements of (ii) temporal causality implying that the future cannot be accessed and (iii) a time-recursive updating mechanism of a limited temporal buffer of the past as is necessary for a genuine real-time system. Fundamental structural requirements are also imposed to ensure (iv) mutual consistency and a proper handling of internal representations at different spatial and temporal scales. It is shown how a set of families of idealized receptive field profiles can be derived by necessity regarding spatial, spatio-chromatic, and spatio-temporal receptive fields in terms of Gaussian kernels, Gaussian derivatives, or closely related operators. Such image filters have been successfully used as a basis for expressing a large number of visual operations in computer vision, regarding feature detection, feature classification, motion estimation, object recognition, spatio-temporal recognition, and shape estimation. Hence, the associated so-called scale-space theory constitutes a both theoretically well-founded and general framework for expressing visual operations. There are very close similarities between receptive field profiles predicted from this scale-space theory and receptive field profiles found by cell recordings in biological vision. Among the family of receptive field profiles derived by necessity from the assumptions, idealized models with very good qualitative agreement are obtained for (i) spatial on-center/off-surround and off-center/on-surround receptive fields in the fovea and the LGN, (ii) simple cells with spatial directional preference in V1, (iii) spatio-chromatic double-opponent neurons in V1, (iv) space-time separable spatio-temporal receptive fields in the LGN and V1, and (v) non-separable space-time tilted receptive fields in V1, all within the same unified theory. In addition, the paper presents a more general framework for relating and interpreting these receptive fields conceptually and possibly predicting new receptive field profiles as well as for pre-wiring covariance under scaling, affine, and Galilean transformations into the representations of visual stimuli. This paper describes the basic structure of the necessity results concerning receptive field profiles regarding the mathematical foundation of the theory and outlines how the proposed theory could be used in further studies and modelling of biological vision. It is also shown how receptive field responses can be interpreted physically, as the superposition of relative variations of surface structure and illumination variations, given a logarithmic brightness scale, and how receptive field measurements will be invariant under multiplicative illumination variations and exposure control mechanisms.},
+archivePrefix = {arXiv},
+arxivId = {1701.06333},
+author = {Lindeberg, Tony},
+doi = {10.1007/s00422-013-0569-z},
+eprint = {1701.06333},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Lindeberg - 2017 - Normative theory of visual receptive fields.pdf:pdf},
+isbn = {0340-1200},
+issn = {03401200},
+journal = {Biological Cybernetics},
+keywords = {Affine covariance,Complex cell,Double-opponent cell,Functional model,Galilean covariance,Gaussian derivative,Illumination invariance,LGN,Primary visual cortex,Receptive field,Scale covariance,Scale space,Simple cell,Theoretical biology,Theoretical neuroscience,Vision,Visual area V1},
+mendeley-groups = {Thesis,SIFT.Papers},
+month = {jan},
+number = {6},
+pages = {589--635},
+pmid = {24197240},
+title = {{A computational theory of visual receptive fields}},
+url = {http://arxiv.org/abs/1701.06333},
+volume = {107},
+year = {2013}
+}
+
+
+@article{Linde2012,
+abstract = {Recent work has shown that effective methods for recognizing objects and spatio-temporal events can be constructed based on histograms of receptive field like image operations. This paper presents the results of an extensive study of the performance of different types of receptive field like image descriptors for histogram-based object recognition, based on different combinations of image cues in terms of Gaussian derivatives or differential invariants applied to either intensity information, color-opponent channels or both. A rich set of composed complex-cue image descriptors is introduced and evaluated with respect to the problems of (i) recognizing previously seen object instances from previously unseen views, and (ii) classifying previously unseen objects into visual categories. It is shown that there exist novel histogram descriptors with significantly better recognition performance compared to previously used histogram features within the same class. Specifically, the experiments show that it is possible to obtain more discriminative features by combining lower-dimensional scale-space features into composed complex-cue histograms. Furthermore, different types of image descriptors have different relative advantages with respect to the problems of object instance recognition vs. object category classification. These conclusions are obtained from extensive evaluations on two mutually independent data sets. For the task of recognizing specific object instances, combined histograms of spatial and spatio-chromatic derivatives are highly discriminative, and several image descriptors in terms rotationally invariant (intensity and spatio-chromatic) differential invariants up to order two lead to very high recognition rates. For category classification, primary information is contained in both first-and second-order derivatives, where second-order partial derivatives constitute the most discriminative cue. Dimensionality reduction by principal component analysis and variance normalization prior to training and recognition can in many cases lead to a significant increase in recognition or classification performance. Surprisingly high recognition rates can even be obtained with binary histograms that reveal the polarity of local scale-space features, and which can be expected to be particularly robust to illumination variations. An overall conclusion from this study is that compared to previously used lower-dimensional histograms, the use of composed complex-cue histograms of higher dimensionality reveals the co-variation of multiple cues and enables much better recognition performance, both with regard to the problems of recognizing previously seen objects from novel views and for classifying previously unseen objects into visual categories. {\textcopyright} 2011 Elsevier Inc. All rights reserved.},
+author = {Linde, Oskar and Lindeberg, Tony},
+doi = {10.1016/j.cviu.2011.12.003},
+issn = {10773142},
+journal = {Computer Vision and Image Understanding},
+keywords = {Color feature,Computer vision,Cue combination,Differential invariant,Gaussian derivative,Histogram,Image descriptor,Image feature,Multi-scale representation,Multiple cues,Object categorization,Object recognition,Scale-space,Spatio-chromatic derivative,Spatio-chromatic differential invariant},
+mendeley-groups = {Thesis,SIFT.Papers},
+month = {apr},
+number = {4},
+pages = {538--560},
+publisher = {Academic Press},
+title = {{Composed complex-cue histograms: An investigation of the information content in receptive field based image descriptors for object recognition}},
+url = {https://www.sciencedirect.com/science/article/pii/S1077314211002633},
+volume = {116},
+year = {2012}
+}
+
+
+
+@article{Marr1979,
+abstract = {An algorithm is proposed for solving the stereoscopic matching problem. The algorithm consists of five steps: (1) each image is filtered at different orientations with bar masks of four sizes that increase with eccentricity; the equivalent filters are one or two octaves wide. (2) Zero-crossing in the filtered images, which roughly correspond to edges, are localized. Positions of the ends of lines and edges are also found. (3) For each mask orientation and size, matching takes place between pairs of zero-crossings or terminations of the same sign in the two images, for a range of disparities up to about the width of the mask's central region. (4) Wide masks can control vergence movements, thus causing small masks to come into correspondence. (5) When a correspondence is achieved, it is stored in a dynamic buffer, called the 2.1/2-D sketch. It is shown that this proposal provides a theoretical framework for most existing psychophysical and neurophysiological data about stereopsis. Several critical experimental predictions are also made, for instance about the size of Panum's area under various conditions. The results of such experiments would tell us whether, for example, co-operativity is necessary for the matching process.},
+author = {Marr, D. and Poggio, T.},
+doi = {10.1098/rspb.1979.0029},
+issn = {09628452},
+journal = {Proceedings of the Royal Society of London - Biological Sciences},
+mendeley-groups = {SIFT.Papers},
+month = {may},
+number = {1156},
+pages = {301--328},
+pmid = {37518},
+publisher = {
+The Royal Society
+London
+},
+title = {{A computational theory of human stereo vision}},
+url = {https://royalsocietypublishing.org/doi/abs/10.1098/rspb.1979.0029},
+volume = {204},
+year = {1979}
+}
+
+
+
+@techreport{Weickert1999,
+abstract = {Linear scale-space is considered to be a modern bottom-up tool in computer vision. The American and European vision community, however, is unaware of the fact that it has already been axiomatically derived in 1959 in a Japanese paper by Taizo Iijima. This result formed the starting point of vast linear scale-space research in Japan ranging from various axiomatic derivations over deep structure analysis to applications to optical character recognition. Since the outcomes of these activities are unknown to western scale-space researchers, we give an overview of the contribution to the development of linear scale-space theories and analyses. In particular, we review four Japanese axiomatic approaches that substantiate linear scale-space theories proposed between 1959 and 1981. By juxtaposing them to ten American or European axiomatics, we present an overview of the state-of-the-art in Gaussian scale-space axiomatics. Furthermore, we show that many techniques for analyzing linear scale-space have also been pioneered by Japanese researchers.},
+author = {Weickert, Joachim and Ishikawa, Seiji and Imiya, Atsushi},
+booktitle = {Journal of Mathematical Imaging and Vision},
+doi = {10.1023/A:1008344623873},
+file = {::},
+issn = {09249907},
+keywords = {axiomatics,deep structure,optical character recognition (OCR),scale-space},
+mendeley-groups = {SIFT.Papers},
+number = {3},
+pages = {237--252},
+title = {{Linear scale-space has first been proposed in Japan}},
+volume = {10},
+year = {1999}
+}
+
+
+
+@article{Lindeberg1990,
+abstract = {A basic and extensive treatment of discrete aspects of the
+scale-space theory is presented. A genuinely discrete scale-space theory
+is developed and its connection to the continuous scale-space theory is
+explained. Special attention is given to discretization effects, which
+occur when results from the continuous scale-space theory are to be
+implemented computationally. The 1D problem is solved completely in an
+axiomatic manner. For the 2D problem, the author discusses how the 2D
+discrete scale space should be constructed. The main results are as
+follows: the proper way to apply the scale-space theory to discrete
+signals and discrete images is by discretization of the diffusion
+equation, not the convolution integral; the discrete scale space
+obtained in this way can be described by convolution with the kernel,
+which is the discrete analog of the Gaussian kernel, a scale-space
+implementation based on the sampled Gaussian kernel might lead to
+undesirable effects and computational problems, especially at fine
+levels of scale; the 1D discrete smoothing transformations can be
+characterized exactly and a complete catalogue is given; all finite
+support 1D discrete smoothing transformations arise from repeated
+averaging over two adjacent elements (the limit case of such an
+averaging process is described); and the symmetric 1D discrete smoothing
+kernels are nonnegative and unimodal, in both the spatial and the
+frequency domain},
+author = {Lindeberg, Tony},
+doi = {10.1109/34.49051},
+issn = {01628828},
+journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+mendeley-groups = {SIFT.Papers},
+number = {3},
+pages = {234--254},
+title = {{Scale-space for discrete signals}},
+volume = {12},
+year = {1990}
+}
+
+@book{ter1997scale,
+  title={Scale-Space Theory in Computer Vision: First International Conference, Scale-Space'97, Utrecht, The Netherlands, July 2-4, 1997, Proceedings},
+  author={ter Haar Romeny, Bart and ter Haar Romeny, Bart M and Florack, Luc and Koenderink, Jan and Viergever, Max and others},
+  volume={1252},
+  year={1997},
+  publisher={Springer Science \& Business Media}
+}
+
+@article{Edelman1997,
+author = {Edelman, S and Intrator, N and Poggio, T},
+journal = {Unpublished manuscript},
+mendeley-groups = {Histogram of Oriented Gradients P300,Thesis,Thesis2},
+title = {{Complex cells and object recognition}},
+pages = {1--12},
+year = {1997}
+}
+
+@book{Lindeberg1994,
+abstract = {The problem of scale pervades both the natural sciences and the vi­ sual arts. The earliest scientific discussions concentrate on visual per­ ception (much like today!) and occur in Euclid's (c. 300 B. C. ) Optics and Lucretius' (c. 100-55 B. C. ) On the Nature of the Universe. A very clear account in the spirit of modern "scale-space theory" is presented by Boscovitz (in 1758), with wide ranging applications to mathemat­ ics, physics and geography. Early applications occur in the cartographic problem of "generalization", the central idea being that a map in order to be useful has to be a "generalized" (coarse grained) representation of the actual terrain (Miller and Voskuil 1964). Broadening the scope asks for progressive summarizing. Very much the same problem occurs in the (realistic) artistic rendering of scenes. Artistic generalization has been analyzed in surprising detail by John Ruskin (in his Modern Painters), who even describes some of the more intricate generic "scale-space sin­ gularities" in detail: Where the ancients considered only the merging of blobs under blurring, Ruskin discusses the case where a blob splits off another one when the resolution is decreased, a case that has given rise to confusion even in the modern literature.},
+address = {Boston, MA},
+author = {Lindeberg, Tony},
+booktitle = {The Springer International Series in Engineering and Computer Science},
+doi = {10.1007/978-1-4757-6465-9_1},
+edition = {1},
+isbn = {978-1-4757-6465-9},
+mendeley-groups = {SIFT.Papers},
+pages = {424},
+publisher = {Springer US},
+title = {{Scale-Space Theory in Computer Vision}},
+url = {http://link.springer.com/10.1007/978-1-4757-6465-9_1},
+year = {1994}
+}
+
+
+@article{Koenderink1984,
+abstract = {In practice the relevant details of images exist only over a restricted range of scale. Hence it is important to study the dependence of image structure on the level of resolution. It seems clear enough that visual perception treats images on several levels of resolution simultaneously and that this fact must be important for the study of perception. However, no applicable mathematically formulated theory to deal with such problems appers to exist. In this paper it is shown that any image can be embedded in a one-parameter family of derived images (with resolution as the parameter) in essentially only one unique way if the constraint that no spurious detail should be generated when the resolution is diminished, is applied. The structure of this family is governed by the well known diffusion equation (a parabolic, linear, partial differential equation of the second order). As such the structure fits into existing theories that treat the front end of the visual system as a continuous tack of homogeneous layer, characterized by iterated local processing schemes. When resolution is decreased the images becomes less articulated because the extrem ("light and dark blobs") disappear one after the other. This erosion of structure is a simple process that is similar in every case. As a result any image can be described as a juxtaposed and nested set of light and dark blobs, wherein each blod has a limited range of resolution in which it manifests itself. The structure of the family of derived images permits a derivation of the sampling density required to sample the image at multiple scales of resolution. The natural scale along the resolution axis (leading to an informationally uniform sampling density) is logarithmic, thus the structure is apt for the description of size invariances. {\textcopyright} 1984 Springer-Verlag.},
+author = {Koenderink, Jan J.},
+doi = {10.1007/BF00336961},
+issn = {03401200},
+journal = {Biological Cybernetics},
+keywords = {Bioinformatics,Complex Systems,Computer Appl. in Life Sciences,Neurobiology,Neurosciences},
+mendeley-groups = {SIFT.Papers},
+month = {aug},
+number = {5},
+pages = {363--370},
+pmid = {6477978},
+publisher = {Springer-Verlag},
+title = {{The structure of images}},
+url = {https://link.springer.com/article/10.1007/BF00336961},
+volume = {50},
+year = {1984}
+}
+
+
+
+@article{Dimitriadis2018,
+title = "A novel, fast and efficient single-sensor automatic sleep-stage classification based on complementary cross-frequency coupling estimates",
+journal = "Clinical Neurophysiology",
+volume = "129",
+number = "4",
+pages = "815 - 828",
+year = "2018",
+issn = "1388-2457",
+doi = "https://doi.org/10.1016/j.clinph.2017.12.039",
+url = "http://www.sciencedirect.com/science/article/pii/S1388245718300336",
+author = "Stavros I. Dimitriadis and Christos Salis and David Linden",
+keywords = "EEG, Sleep stages, EEG sub-bands, Machine learning algorithms, Phase-to-amplitude coupling, Cross Frequency Coupling"
+}
+
+
+@INPROCEEDINGS{Arandjelovic2012,
+author = {R. Arandjelovic and A. Zisserman},
+booktitle = {2012 IEEE Conference on Computer Vision and Pattern Recognition(CVPR)},
+title = {Three things everyone should know to improve object retrieval},
+year = {2012},
+pages = {2911--2918},
+keywords={image retrieval;retrieval performance;object retrieval;large scale image datasets;image query;image retrieval;video Google;SIFT descriptors;RootSIFT;query expansion;image augmentation method;Vectors;Visualization;Kernel;Standards;Support vector machines;Indexes;Euclidean distance},
+doi = {10.1109/CVPR.2012.6248018},
+url = {doi.ieeecomputersociety.org/10.1109/CVPR.2012.6248018},
+ISSN = {1063-6919},
+month={06}
+}
+
+
+@book{Schomer2010,
+abstract = {"This edition has several new features, reflective of the changes that have occurred in our field over the last 5 years since the fifth edition. More and more, the field of digital recording has expanded; however, in order to understand some of the shortcomings and pitfalls of digital EEG, people need to still address the issues of basic analog recording principles. With an increased use of digital recording, laboratories have collected new and different "technical artifacts." We present here an attempt to start a database for such artifacts in a hopes that future editions will continue to expand upon this and offer a fairly complete library for beginning individuals interested in our field. As noted in the fifth edition, epilepsy monitoring units (EMU's) have continued to mushroom. Similar growth has occurred in the use of EEG monitoring in newborn, cardiac, trauma, and post-operative intensive care units. With the significant advances in wireless communication and easy access to the Internet, such recordings can also be viewed and transmitted locally virtually instantaneously and can allow for well-trained clinical neurophysiologists to see and opine about patients' conditions on a very time-relevant basis. Hopefully, as future generations may show, this ability will significantly influence our patients' outcomes. Similarly, the field of intraoperative clinical neurophysiology for spinal cord function, cranial nerve function, and cranial vascular therapies has continued to evolve along with the wireless and iInternet communications. This has allowed for close monitoring of neurologic function during critical periods of operations, again with a time course that allows for corrective actions to be taken on a meaningful time frame"-Provided by publisher.},
+author = {Schomer, Donald L and Silva, Fernando Lopes Da},
+booktitle = {Book},
+publisher = {Oxford University Press},
+isbn = {0781789427},
+mendeley-groups = {Entropy,Histogram of Oriented Gradients P300,Thesis,Thesis2},
+pages = {1296},
+title = {{Niedermeyer's Electroencephalography: Basic Principles, Clinical Applications, and Related Fields}},
+volume = {1},
+year = {2010}
+}
+
+@article{Cole2017,
+abstract = {Oscillations are a prevalent feature of brain recordings. They are believed to play key roles in neural communication and computation. Current analysis methods for studying neural oscillations often implicitly assume that the oscillations are sinusoidal. While these approaches have proven fruitful, we show here that there are numerous instances in which neural oscillations are nonsinusoidal. We highlight approaches to characterize nonsinusoidal features and account for them in traditional spectral analysis. Instead of being a nuisance, we discuss how these nonsinusoidal features may provide crucial and so far overlooked physiological information related to neural communication, computation, and cognition.},
+author = {Cole, Scott R. and Voytek, Bradley},
+doi = {10.1016/j.tics.2016.12.008},
+file = {:Users/rramele/GoogleDrive/BCI/Shape BCI/Brain Oscillations and the importance of waveform shapes.pdf:pdf},
+isbn = {1879-307X (Electronic) 1364-6613 (Linking)},
+issn = {1879307X},
+journal = {Trends in Cognitive Sciences},
+keywords = {nonsinusoidal,oscillation,phase–amplitude coupling,shape,waveform},
+mendeley-groups = {EEGWaveformAnalysis,Thesis,Thesis2},
+number = {2},
+pages = {137--149},
+pmid = {28063662},
+publisher = {Elsevier Ltd},
+title = {{Brain Oscillations and the Importance of Waveform Shape}},
+url = {http://dx.doi.org/10.1016/j.tics.2016.12.008},
+volume = {21},
+year = {2017}
+}
+
+@article{Jestico1977,
+abstract = {Closed-circuit television and EEG radio-telemetry have been used in the observation of epileptic patients. Since day-time recording sessions last for 5 or 6 h and overnight sessions for considerably longer, the system includes time-lapse video-tape recording to allow accelerated play-back of video-taped material. A method of automatic EEG analysis has been developed so that quantitative studies of sleep, and of epileptic activity during sleep, can be made when the clinical problem demands it. {\textcopyright} 1977.},
+author = {Jestico, J. and Fitch, P. and Gilliatt, R. W. and Willison, R. G.},
+doi = {10.1016/0013-4694(77)90268-1},
+issn = {00134694},
+journal = {Electroencephalography and Clinical Neurophysiology},
+mendeley-groups = {Thesis,EEGWaveformAnalysis,Thesis2},
+month = {sep},
+number = {3},
+pages = {438--441},
+publisher = {Elsevier},
+title = {{Automatic and rapid visual analysis of sleep stages and epileptic activity. A preliminary report}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/0013469477902681},
+volume = {43},
+year = {1977}
+}
+
+
+@article{Rey-Otero2014,
+abstract = {This article presents a detailed description and implementation of the Scale Invariant Feature Transform (SIFT), a popular image matching algorithm. This work contributes to a detailed dissection of SIFT's complex chain of transformations and to a careful presentation of each of its design parameters. A companion online demonstration allows the reader to use SIFT and individually set each parameter to analyze its impact on the algorithm results},
+author = {Rey-Otero, I. and Delbracio, M.},
+doi = {http://dx.doi.org/10.5201/ipol.2014.82},
+issn = {2105-1232},
+journal = {Image Processing On Line},
+keywords = {feature detection,image comparison,sift},
+mendeley-groups = {Thesis},
+pages = {370--396},
+title = {{Anatomy of the SIFT Method}},
+year = {2014}
+}
+
+@article{Bresenham1965,
+abstract = {The algorithm can be programmed without the use of multiplication or division. It was found that 333 core locations were sufficient for an IBM 1401 program (used to control an IBM 1627). The average computation time between successive incrementations was approximately 1.5 milliseconds.},
+author = {Bresenham, J. E.},
+journal = {IBM Systems Journal},
+mendeley-groups = {BCI2016,Histogram of Oriented Gradients P300,Thesis,Thesis2},
+number = {1},
+pages = {25--30},
+title = {{Algorithm for computer control of a digital plotter}},
+volume = {4},
+year = {1965}
+}
+
+@article{Uchida1999,
+abstract = {Zero-cross and zero-derivative period amplitude analysis (PAA) data were compared with power spectral analysis (PSA) data obtained with the fast Fourier transform in all-night sleep EEG from 10 subjects. Although PAA zero-cross-integrated amplitude showed good agreement with PSA power in 0.3-2 Hz, zero-cross analysis appears relatively ineffective in measuring 2-4 Hz and above waves. However, PAA zero-derivative measures of peak-trough amplitude correlated well with PSA power in 2-4 Hz. Thus, while PAA appears able to measure the entire EEG spectrum, the analytic technique should be changed from zero cross to zero derivative at about 2 Hz in human sleep EEG. PAA and PSA both demonstrate robust and interrelated across-night oscillations in three frequency bands: delta (0.3-4 Hz); sigma (12-16 Hz); and fast beta (20-40 Hz). The frequencies between delta and sigma, and between sigma and fast beta, did not show clear across-night oscillations using either method, and the two methods showed lower epoch-to-epoch agreement in these intermediate bands. The causes of this reduced agreement are not immediately clear, nor is it obvious which method gives more valid results. We believe that the three strongly oscillating frequency bands represent fundamental properties of the human sleep EEG that provide important clues to underlying physiological mechanisms. These mechanisms are more likely to be understood if their dynamic properties are preserved and measured naturalistically rather than being forced into arbitrary sleep stages or procrustean models. Both PAA and PSA can be employed for such naturalistic studies. PSA has the advantages of applying the same analytic method across the EEG spectrum and rests on more fully developed theory. Combined zero-cross and zero-derivative PAA demonstrates EEG oscillations that closely parallel those observed with spectral power, and the PAA measures do not rely on assumptions about the spectral composition of the signal. In addition, both PAA techniques can measure the relative contributions of wave amplitude and incidence to total power. These waveform characteristics represent different biological processes and respond differentially to a wide range of experimental conditions. Copyright (C) 1999 Elsevier Science Inc.},
+author = {Uchida, Sunao and Feinberg, Irwin and March, Jonathan D. and Atsumi, Yoshikata and Maloney, Tom},
+doi = {10.1016/S0031-9384(99)00049-9},
+file = {:Users/rramele/GoogleDrive/BCI/Shape BCI/PAA vs FFT for Sleep Reseatch Introduction.pdf:pdf},
+isbn = {0031-9384 (Print) 0031-9384 (Linking)},
+issn = {00319384},
+journal = {Physiology and Behavior},
+keywords = {Delta,FFT power spectral analysis,Fast beta,Period amplitude analysis,Sigma spindle,Sleep EEG},
+mendeley-groups = {EEGWaveformAnalysis,Thesis,Thesis2},
+number = {1},
+pages = {121--131},
+pmid = {10463638},
+title = {{A comparison of period amplitude analysis and FFT power spectral analysis of all-night human sleep EEG}},
+volume = {67},
+year = {1999}
+}
+
+
+@article{Boostani2017,
+title = "A comparative review on sleep stage classification methods in patients and healthy individuals",
+journal = "Computer Methods and Programs in Biomedicine",
+volume = "140",
+pages = "77 - 91",
+year = "2017",
+issn = "0169-2607",
+doi = "https://doi.org/10.1016/j.cmpb.2016.12.004",
+url = "http://www.sciencedirect.com/science/article/pii/S0169260716308276",
+author = "Reza Boostani and Foroozan Karimzadeh and Mohammad Nami",
+keywords = "Sleep stage classification, Wavelet transform, Random forest classifier, Entropy"
+}
+
+@article{Rodenbeck2006,
+abstract = {Question of the study The reliable evaluation of polysomnographic recordings (PSG) is an essential precondition for good clinical practice in sleep medicine. Although the scoring rules of Rechtschaffen and Kales [86] are internationally well established, they leave some room for different interpretations, and this may contribute to the limited reliability of visual sleep scoring. The German Sleep Society (DGSM) has set up a task force to devise ways to improve scoring reliability in the framework of their quality management programme. The intention was not to revise the rules of Rechtschaffen and Kales (R{\&}K), but to facilitate their reliable application in sleep scoring and to support the development of standardized algorithms for computerized sleep analysis. Methods The task force was formed in September 2004 as a subcommittee of the educational panel of the DGSM. The members of the task force are experienced in sleep scoring and have a background either in physiology, neurology, psychiatry, psychology, or biology. The aim of the task force was to provide interpretation aids and, if needed, specifications or amendments to the R{\&}K rules for the scoring of sleep electroencephalogram (EEG) waveforms and patterns. Decisions were based on the nominal group technique of a nominal panel as the formal consensus-building process. The consensus process was based on scoring and face-to-face discussions of at least 40 examples for each pattern in four 2-day meetings. Results Relevant EEG patterns for sleep stage scoring are alpha, theta, and delta waves, sleep spindles, K-complexes, vertex sharp waves, and sawtooth waves. If definitions for a given EEG pattern differed in the literature, the nominal group technique resulted in specifications and amended scoring rules for these EEG patterns. A second part including a series of examples with explanatory comments for each of these EEG patterns is under preparation. Conclusions Amendatory scoring rules of those EEG patterns that are relevant for sleep scoring may contribute to increasing the reliability of visual sleep scoring and to support the development of standardized algorithms for computerized sleep analysis. Correspondence: Andrea Rodenbeck, Department of Psychiatry, University Go Tel.: +49-551-39 6947, Fax: +49-551-39 3887, E-mail: arodenb@gwdg.de Received: 15.05.06/Accepted: 22.08.06 2006 Blackwell Verlag, Berlin, von-Siebold-Str. 5, 37075 Gottingen, Germany},
+author = {Rodenbeck, Andrea and Binder, Ralf and Geisler, Peter and Danker-Hopfe, Heidi and Lund, Reimer and Raschke, Friedhart and Wee{\ss}, Hans G{\"{u}}nther and Schulz, Hartmut},
+doi = {10.1111/j.1439-054X.2006.00101.x},
+file = {:Users/rramele/GoogleDrive/BCI/Shape BCI/Review of Sleep EEG patterns.pdf:pdf},
+isbn = {1439-054X},
+issn = {14329123},
+journal = {Somnologie},
+keywords = {Alpha, theta, delta, vertex waves,K-complexes,Sawtooth waves,Scoring,Sleep EEG,Sleep spindles},
+mendeley-groups = {EEGWaveformAnalysis,Thesis,Thesis2},
+number = {4},
+pages = {159--175},
+title = {{A review of sleep EEG patterns. Part I: A compilation of amended rules for their visual recognition according to Rechtschaffen and Kales}},
+volume = {10},
+year = {2006}
+}
+
+
+@article{Dirac1953888,
   title   = "The lorentz transformation and absolute time",
   journal = "Physica ",
   volume  = "19",
@@ -17,4 +391,343 @@
   year    = "1963",
   doi     = "10.1016/0003-4916(63)90068-X",
   author  = "R.P Feynman and F.L {Vernon Jr.}"
+}
+
+@book{Szeliski2010,
+abstract = {Humans perceive the three-dimensional structure of the world with apparent ease. However, despite all of the recent advances in computer vision research, the dream of having a computer interpret an image at the same level as a two-year old remains elusive. Why is computer vision such a challenging problem and what is the current state of the art? Computer Vision: Algorithms and Applications explores the variety of techniques commonly used to analyze and interpret images. It also describes challenging real-world applications where vision is being successfully used, both for specialized applications such as medical imaging, and for fun, consumer-level tasks such as image editing and stitching, which students can apply to their own personal photos and videos. More than just a source of “recipes,” this exceptionally authoritative and comprehensive textbook/reference also takes a scientific approach to basic vision problems, formulating physical models of the imaging process before inverting them to produce descriptions of a scene. These problems are also analyzed using statistical models and solved using rigorous engineering techniques Topics and features: Structured to support active curricula and project-oriented courses, with tips in the Introduction for using the book in a variety of customized courses Presents exercises at the end of each chapter with a heavy emphasis on testing algorithms and containing numerous suggestions for small mid-term projects Provides additional material and more detailed mathematical topics in the Appendices, which cover linear algebra, numerical techniques, and Bayesian estimation theory Suggests additional reading at the end of each chapter, including the latest research in each sub-field, in addition to a full Bibliography at the end of the book Supplies supplementary course material for students at the associated website, http://szeliski.org/Book/ Suitable for an upper-level undergraduate or graduate-level course in computer science or engineering, this textbook focuses on basic techniques that work under real-world conditions and encourages students to push their creative boundaries. Its design and exposition also make it eminently suitable as a unique reference to the fundamental techniques and current research literature in computer vision. Dr. Richard Szeliski has more than 25 years' experience in computer vision research, most notably at Digital Equipment Corporation and Microsoft Research. This text draws on that experience, as well as on computer vision courses he has taught at the University of Washington and Stanford.},
+author = {Szeliski, Richard},
+isbn = {1848829345},
+mendeley-groups = {SIFT.Papers,BCI/Visual Covert Attention,Thesis,Thesis2},
+pages = {812},
+publisher = {Springer},
+title = {{Computer Vision: Algorithms and Applications}},
+url = {http://books.google.com.ar/books/about/Computer{\_}Vision.html?id=8{\_}2RNQEACAAJ{\&}pgis=1},
+volume = {24},
+year = {2010}
+}
+
+@article{Lowe2004,
+abstract = {SIFT: SCALE INVARIANT FEATURE TRANSFORM BY DAVID  Presented by: Jason Clemons Page 2. Overview  Sub Pixel Locate Potential Feature Points Build  Descriptors Assign  Orientations Filter Edge and Low Contrast Responses },
+author = {Lowe, G},
+journal = {International Journal},
+mendeley-groups = {SIFT.Papers,Entropy,BCI2016,Histogram of Oriented Gradients P300,Thesis,Thesis2},
+pages = {91--110},
+title = {{SIFT - The Scale Invariant Feature Transform}},
+volume = {2},
+year = {2004}
+}
+
+
+@article{Vedaldi2010,
+abstract = {E-participation is a relatively new approach, so it is necessary to evaluate it carefully so that we can improve e-participation practice. This paper describes a framework that has been developed for evaluating a number of e-participation pilots in the legislation development processes of parliaments. The framework is based on the objectives and basic characteristics of 'traditional' public participation, e-participation and the legislation development processes, as well as the existing frameworks for the evaluation of Information Systems (ISs), e-participation and traditional public participation. It includes three perspectives: process, system and outcomes evaluation; each of them is analysed into a number of evaluation criteria.},
+author = {Vedaldi, Andrea and Fulkerson, Brian},
+doi = {10.1145/1873951.1874249},
+isbn = {9781605589336},
+journal = {Design},
+keywords = {computer vision,image classification,object recognition,vi},
+mendeley-groups = {SIFT.Papers,Entropy,BCI2016,Histogram of Oriented Gradients P300,Thesis,Thesis2},
+number = {1},
+pages = {1--4},
+title = {{VLFeat - An open and portable library of computer vision algorithms}},
+url = {http://vision.ucla.edu/{~}brian/papers/vedaldi10vlfeat.pdf},
+volume = {3},
+year = {2010}
+}
+
+@article{Ramele2019,
+abstract = {The analysis of Electroencephalographic (EEG) signals is of ulterior importance to aid in the diagnosis of mental disease and to increase our understanding of the brain. Traditionally, clinical EEG has been analyzed in terms of temporal waveforms, looking at rhythms in spontaneous activity, subjectively identifying troughs and peaks in Event-Related Potentials (ERP), or by studying graphoelements in pathological sleep stages. Additionally, the discipline of Brain Computer Interfaces (BCI) requires new methods to decode patterns from non-invasive EEG signals. This field is developing alternative communication pathways to transmit volitional information from the Central Nervous System. The technology could potentially enhance the quality of life of patients affected by neurodegenerative disorders and other mental illness. This work mimics what electroencephalographers have been doing clinically, visually inspecting, and categorizing phenomena within the EEG by the extraction of features from images of signal plots. These features are constructed based on the calculation of histograms of oriented gradients from pixels around the signal plot. It aims to provide a new objective framework to analyze, characterize and classify EEG signal waveforms. The feasibility of the method is outlined by detecting the P300, an ERP elicited by the oddball paradigm of rare events, and implementing an offline P300-based BCI Speller. The validity of the proposal is shown by offline processing a public dataset of Amyotrophic Lateral Sclerosis (ALS) patients and an own dataset of healthy subjects.},
+author = {Ramele, Rodrigo and Villar, Ana Julia and Santos, Juan Miguel},
+doi = {10.3389/fncom.2019.00043},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Ramele, Villar, Santos - 2019 - Histogram of Gradient Orientations of Signal Plots Applied to P300 Detection.pdf:pdf},
+issn = {16625188},
+journal = {Frontiers in Computational Neuroscience},
+keywords = {Amyotrophic lateral sclerosis,Brain-computer interfaces,Electroencephalography,Histogram of Gradient Orientations,Naive-bayes near neighbors,P300,SIFT,Waveforms},
+month = {jul},
+pmid = {31333439},
+title = {{Histogram of gradient orientations of signal plots applied to p300 detection}},
+url = {https://www.frontiersin.org/article/10.3389/fncom.2019.00043/full},
+volume = {13},
+year = {2019}
+}
+
+@article{Ramele2018,
+abstract = {The Electroencephalography (EEG) is not just a mere clinical tool anymore. It has become the de-facto mobile, portable, non-invasive brain imaging sensor to harness brain information in real time. It is now being used to translate or decode brain signals, to diagnose diseases or to implement Brain Computer Interface (BCI) devices. The automatic decoding is mainly implemented by using quantitative algorithms to detect the cloaked information buried in the signal. However, clinical EEG is based intensively on waveforms and the structure of signal plots. Hence, the purpose of this work is to establish a bridge to fill this gap by reviewing and describing the procedures that have been used to detect patterns in the electroencephalographic waveforms, benchmarking them on a controlled pseudo-real dataset of a P300-Based BCI Speller and verifying their performance on a public dataset of a BCI Competition.},
+author = {Ramele, Rodrigo and Villar, Ana Julia and Santos, Juan Miguel},
+doi = {10.3390/brainsci8110199},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Ramele et al. - 2018 - EEG Waveform Analysis of P300 ERP with Applications to Brain Computer Interfaces.pdf:pdf},
+issn = {20763425},
+journal = {Brain Sciences},
+keywords = {Brain-computer interfaces,Electroencephalography,MP,PE,SHCC,SIFT,Waveform,p300},
+month = {nov},
+number = {11},
+pages = {199},
+publisher = {Multidisciplinary Digital Publishing Institute},
+title = {{EEG waveform analysis of p300 ERP with applications to brain computer interfaces}},
+url = {http://www.mdpi.com/2076-3425/8/11/199},
+volume = {8},
+year = {2018}
+}
+
+@inproceedings{Ramele2016,
+author = {Ramele, R. and Villar, A.J. and Santos, J.M.},
+booktitle = {2016 4th International Winter Conference on Brain-Computer Interface (BCI)},
+doi = {10.1109/IWW-BCI.2016.7457454},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Ramele, Villar, Santos - 2016 - BCI classification based on signal plots and SIFT descriptors(2).pdf:pdf},
+isbn = {978-1-4673-7841-3},
+keywords = {BCI classification,Brain modeling,Classification algorithms,Electroencephalography,Feature extraction,Medical services,Rhythm,SIFT descriptors,Visualization,bci,bnci,brain computer interfaces,brain-computer interfaces,brain/neural computer interaction field,classification,clinical adoption,electroencephalography,feature-extraction,human observer,medical signal processing,sift,signal plots,transforms,visually relevant feature descriptors},
+mendeley-groups = {Thesis},
+month = {feb},
+pages = {1--4},
+publisher = {IEEE},
+title = {{BCI classification based on signal plots and SIFT descriptors}},
+url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7457454},
+year = {2016}
+}
+
+
+@article{Jackson2014,
+abstract = {A thorough understanding of the EEG signal and its measurement is necessary to produce high quality data and to draw accurate conclusions from those data. However, publications that discuss relevant topics are written for divergent audiences with specific levels of expertise: explanations are either at an abstract level that leaves readers with a fuzzy understanding of the electrophysiology involved, or are at a technical level that requires mastery of the relevant physics to understand. A clear, comprehensive review of the origin and measurement of EEG that bridges these high and low levels of explanation fills a critical gap in the literature and is necessary for promoting better research practices and peer review. The present paper addresses the neurophysiological source of EEG, propagation of the EEG signal, technical aspects of EEG measurement, and implications for interpretation of EEG data.},
+author = {Jackson, Alice F. and Bolger, Donald J.},
+doi = {10.1111/psyp.12283},
+issn = {14698986},
+journal = {Psychophysiology},
+keywords = {EEG/ERP,Methods,Signal propagation},
+mendeley-groups = {EEGWave,Thesis},
+month = {nov},
+number = {11},
+pages = {1061--1071},
+pmid = {25039563},
+title = {{The neurophysiological bases of EEG and EEG measurement: A review for the rest of us}},
+url = {http://doi.wiley.com/10.1111/psyp.12283},
+volume = {51},
+year = {2014}
+}
+
+@article{Forcato2020,
+abstract = {Reactivation by reminder cues labilizes memories during wakefulness, requiring reconsolidation to persist. In contrast, during sleep, cued reactivation seems to directly stabilize memories. In reconsolidation, incomplete reminders are more effective in reactivating memories than complete reminders by inducing a mismatch, i.e. a discrepancy between expected and actual events. Whether mismatch is likewise detected during sleep is unclear. Here we test whether cued reactivation during sleep is more effective for mismatch-inducing incomplete than complete reminders. We first establish that only incomplete but not complete reminders labilize memories during wakefulness. When complete or incomplete reminders are presented during 40-min sleep, both reminders are equally effective in stabilizing memories. However, when extending the retention interval for another 7 hours (following 40-min sleep), only incomplete but not complete reminders stabilize memories, regardless of the extension containing wakefulness or sleep. We propose that, during sleep, only incomplete reminders initiate long-term memory stabilization via mismatch detection.},
+author = {Forcato, Cecilia and Klinzing, Jens G. and Carbone, Julia and Radloff, Michael and Weber, Frederik D. and Born, Jan and Diekelmann, Susanne},
+doi = {10.1038/s42003-020-01457-4},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Forcato et al. - 2020 - Reactivation during sleep with incomplete reminder cues rather than complete ones stabilizes long-term memory in.pdf:pdf},
+issn = {23993642},
+journal = {Communications Biology},
+keywords = {Consolidation,Long,term memory},
+mendeley-groups = {Sleep},
+month = {dec},
+number = {1},
+pages = {1--13},
+pmid = {33277601},
+publisher = {Nature Research},
+title = {{Reactivation during sleep with incomplete reminder cues rather than complete ones stabilizes long-term memory in humans}},
+url = {https://www.nature.com/articles/s42003-020-01457-4},
+volume = {3},
+year = {2020}
+}
+
+@article{Yan2019,
+abstract = {Objective: The study aims to develop an automatic sleep scoring method by fusing different polysomnography (PSG) signals and further to investigate PSG signals' contribution to the scoring result. Methods: Eight combinations of four modalities of PSG signals, namely electroencephalogram (EEG), electrooculogram (EOG), electromyogram (EMG), and electrocardiogram (ECG) were considered to find the optimal fusion of PSG signals. A total of 232 features, covering statistical characters, frequency characters, time-frequency characters, fractal characters, entropy characters and nonlinear characters, were derived from these PSG signals. To select the optimal features for each signal fusion, four widely used feature selection methods were compared. At the classification stage, five different classifiers were employed to evaluate the validity of the features and to classify sleep stages. Results: For the database in the present study, the best classifier, random forest, realized the optimal consistency of 86.24% with the sleep macrostructures scored by the technologists trained at the Sleep Center. The optimal accuracy was achieved by fusing four modalities of PSG signals. Specifically, the top twelve features in the optimal feature set were respectively EEG features named zero-crossings, spectral edge, relative power spectral of theta, Petrosian fractal dimension, approximate entropy, permutation entropy and spectral entropy, and EOG features named spectral edge, approximate entropy, permutation entropy and spectral entropy, and the mutual information between EEG and submental EMG. In addition, ECG features (e.g. Petrosian fractal dimension, zero-crossings, mean value of R amplitude and permutation entropy) were useful for the discrimination among W, S1 and R. Conclusions: Through exploring the different fusions of multi-modality signals, the present study concluded that the multi-modality of PSG signals' fusion contributed to higher accuracy, and the optimal feature set was a fusion of multiple types of features. Besides, compared with manual scoring, the proposed automatic scoring methods were cost-effective, which would alleviate the burden of the physicians, speed up sleep scoring, and expedite sleep research.},
+author = {Yan, Rui and Zhang, Chi and Spruyt, Karen and Wei, Lai and Wang, Zhiqiang and Tian, Lili and Li, Xueqiao and Ristaniemi, Tapani and Zhang, Jihui and Cong, Fengyu},
+doi = {10.1016/j.bspc.2018.10.001},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Yan et al. - 2019 - Multi-modality of polysomnography signals' fusion for automatic sleep scoring.pdf:pdf},
+issn = {17468108},
+journal = {Biomedical Signal Processing and Control},
+keywords = {Automatic sleep scoring,Multi-modality analysis,Polysomnography,Rules of R&K},
+mendeley-groups = {Sleep},
+month = {mar},
+pages = {14--23},
+publisher = {Elsevier Ltd},
+title = {{Multi-modality of polysomnography signals' fusion for automatic sleep scoring}},
+volume = {49},
+year = {2019}
+}
+
+
+@article{Jansson2020,
+abstract = {The ability to handle large scale variations is crucial for many real world visual tasks. A straightforward approach for handling scale in a deep network is to process an image at several scales simultaneously in a set of scale channels. Scale invariance can then, in principle, be achieved by using weight sharing between the scale channels together with max or average pooling over the outputs from the scale channels. The ability of such scale channel networks to generalise to scales not present in the training set over significant scale ranges has, however, not previously been explored. We, therefore, present a theoretical analysis of invariance and covariance properties of scale channel networks and perform an experimental evaluation of the ability of different types of scale channel networks to generalise to previously unseen scales. We identify limitations of previous approaches and propose a new type of foveated scale channel architecture, where the scale channels process increasingly larger parts of the image with decreasing resolution. Our proposed FovMax and FovAvg networks perform almost identically over a scale range of 8 also when training on single scale training data and do also give improvements in the small sample regime.},
+archivePrefix = {arXiv},
+arxivId = {2004.01536},
+author = {Jansson, Ylva and Lindeberg, Tony},
+eprint = {2004.01536},
+file = {::},
+issn = {23318422},
+journal = {arXiv},
+mendeley-groups = {SIFT.Papers},
+month = {apr},
+title = {{Exploring the ability of CNNs to generalise to previously unseen scales over wide scale ranges}},
+url = {http://arxiv.org/abs/2004.01536},
+year = {2020}
+}
+
+
+@article{RK,
+abstract = {.},
+author = {Rechtschaffen, A. Kales. },
+journal = {Brain In-formation Service, Brain Information Institute, UCLA: Los Angeles, CA, USA,},
+publisher = {Elsevier Ltd},
+title = {{ Manual of Standardized Terminol-365ogy, Technique and Scoring System for Sleep Stages of Human Sleep}},
+year = {1968}
+}
+
+@article{RB,
+abstract = {Over more than a century of research has established the fact that sleep benefits the retention of memory. In this review we aim to comprehensively cover the field of "sleep and memory" research by providing a historical perspective on concepts and a discussion of more recent key findings. Whereas initial theories posed a passive role for sleep enhancing memories by protecting them from interfering stimuli, current theories highlight an active role for sleep in which memories undergo a process of system consolidation during sleep. Whereas older research concentrated on the role of rapid-eye-movement (REM) sleep, recent work has revealed the importance of slow-wave sleep (SWS) for memory consolidation and also enlightened some of the underlying electrophysiological, neurochemical, and genetic mechanisms, as well as developmental aspects in these processes. Specifically, newer findings characterize sleep as a brain state optimizing memory consolidation, in opposition to the waking brain being optimized for encoding of memories. Consolidation originates from reactivation of recently encoded neuronal memory representations, which occur during SWS and transform respective representations for integration into long-term memory. Ensuing REM sleep may stabilize transformed memories. While elaborated with respect to hippocampus-dependent memories, the concept of an active redistribution of memory representations from networks serving as temporary store into long-term stores might hold also for non-hippocampus-dependent memory, and even for nonneuronal, i.e., immunological memories, giving rise to the idea that the offline consolidation of memory during sleep represents a principle of long-term memory formation established in quite different physiological systems. {\textcopyright} 2013 the American Physiological Society.},
+author = {Rasch, Bj{\"{o}}rn and Born, Jan},
+doi = {10.1152/physrev.00032.2012},
+issn = {00319333},
+journal = {Physiological Reviews},
+number = {2},
+pages = {681--766},
+pmid = {23589831},
+publisher = { American Physiological Society Bethesda, MD},
+title = {{About sleep's role in memory}},
+url = {www.prv.org},
+volume = {93},
+year = {2013}
+}
+
+
+@manual{BciSift,
+title  = "Bci Sift Repository",
+mendeley-groups = {Thesis,Thesis2},
+author = "Ramele, R.",
+note   = "\url{https://github.com/faturita/BciSift}",
+year   = "2018 (accessed March 31, 2021)"
+}
+
+@article{Khodabandehloo2021,
+abstract = {Our aging society claims for innovative tools to early detect symptoms of cognitive decline. Several research efforts are being made to exploit sensorized smart-homes and artificial intelligence (AI) methods to detect a decline of the cognitive functions of the elderly in order to promptly alert practitioners. Even though those tools may provide accurate predictions, they currently provide limited support to clinicians in making a diagnosis. Indeed, most AI systems do not provide any explanation of the reason why a given prediction was computed. Other systems are based on a set of rules that are easy to interpret by a human. However, those rule-based systems can cope with a limited number of abnormal situations, and are not flexible enough to adapt to different users and contextual situations. In this paper, we tackle this challenging problem by proposing a flexible AI system to recognize early symptoms of cognitive decline in smart-homes, which is able to explain the reason of predictions at a fine-grained level. Our method relies on well known clinical indicators that consider subtle and overt behavioral anomalies, as well as spatial disorientation and wandering behaviors. In order to adapt to different individuals and situations, anomalies are recognized using a collaborative approach. We experimented our approach with a large set of real world subjects, including people with MCI and people with dementia. We also implemented a dashboard to allow clinicians to inspect anomalies together with the explanations of predictions. Results show that our system's predictions are significantly correlated to the person's actual diagnosis. Moreover, a preliminary user study with clinicians suggests that the explanation capabilities of our system are useful to improve the task performance and to increase trust. To the best of our knowledge, this is the first work that explores data-driven explainable AI for supporting the diagnosis of cognitive decline.},
+author = {Khodabandehloo, Elham and Riboni, Daniele and Alimohammadi, Abbas},
+doi = {10.1016/j.future.2020.10.030},
+issn = {0167739X},
+journal = {Future Generation Computer Systems},
+keywords = {Cognitive decline,Explainable artificial intelligence,Pervasive healthcare,Sensor-based activity recognition},
+month = {mar},
+pages = {168--189},
+publisher = {Elsevier B.V.},
+title = {{HealthXAI: Collaborative and explainable AI for supporting early diagnosis of cognitive decline}},
+volume = {116},
+year = {2021}
+}
+
+
+
+@article{gong2020deep,
+  title={Deep Learning in EEG: Advance of the Last Ten-Year Critical Period},
+  author={Gong, Shu and Xing, Kaibo and Cichocki, Andrzej and Li, Junhua},
+  journal={arXiv preprint arXiv:2011.11128},
+  year={2020}
+}
+
+@article{Wan2021,
+abstract = {Electroencephalogram (EEG) signal analysis, which is widely used for human-computer interaction and neurological disease diagnosis, requires a large amount of labeled data for training. However, the collection of substantial EEG data could be difficult owing to its randomness and non-stationary. Moreover, there is notable individual difference in EEG data, which affects the reusability and generalization of models. For mitigating the adverse effects from the above factors, transfer learning is applied in this field to transfer the knowledge learnt in one domain into a different but related domain. Transfer learning adjusts models with small-scale data of the task, and also maintains the learning ability with individual difference. This paper describes four main methods of transfer learning and explores their practical applications in EEG signal analysis in recent years. Finally, we discuss challenges and opportunities of transfer learning and suggest areas for further study.},
+author = {Wan, Zitong and Yang, Rui and Huang, Mengjie and Zeng, Nianyin and Liu, Xiaohui},
+doi = {10.1016/j.neucom.2020.09.017},
+issn = {18728286},
+journal = {Neurocomputing},
+keywords = {Electroencephalogram,Transfer learning},
+mendeley-groups = {BCI},
+month = {jan},
+pages = {1--14},
+publisher = {Elsevier B.V.},
+title = {{A review on transfer learning in EEG signal analysis}},
+volume = {421},
+year = {2021}
+}
+
+
+@article{Fawcett2005,
+abstract = {Receiver operating characteristics (ROC) graphs are useful for organizing classifiers and visualizing their performance. ROC graphs are commonly used in medical decision making, and in recent years have been used increasingly in machine learning and data mining research. Although ROC graphs are apparently simple, there are some common misconceptions and pitfalls when using them in practice. The purpose of this article is to serve as an introduction to ROC graphs and as a guide for using them in research. ? 2005 Elsevier B.V. All rights reserved},
+archivePrefix = {arXiv},
+arxivId = {http://dx.doi.org/10.1016/j.patrec.200},
+author = {Fawcett, Tom},
+doi = {10.1016/j.patrec.2005.10.010},
+eprint = {/dx.doi.org/10.1016/j.patrec.200},
+isbn = {01678655},
+issn = {18760988},
+journal = {Irbm},
+keywords = {Classifier evaluation,Evaluation metrics,ROC analysis},
+mendeley-groups = {Thesis},
+month = {jun},
+number = {6},
+pages = {299--309},
+pmid = {9820922},
+primaryClass = {http:},
+publisher = {North-Holland},
+title = {{An introduction to ROC analysis Tom}},
+url = {https://www.sciencedirect.com/science/article/abs/pii/S016786550500303X},
+volume = {35},
+year = {2005}
+}
+
+
+@article{Lotte2018,
+abstract = {OBJECTIVE Most current electroencephalography (EEG)-based brain-computer interfaces (BCIs) are based on machine learning algorithms. There is a large diversity of classifier types that are used in this field, as described in our 2007 review paper. Now, approximately ten years after this review publication, many new algorithms have been developed and tested to classify EEG signals in BCIs. The time is therefore ripe for an updated review of EEG classification algorithms for BCIs. APPROACH We surveyed the BCI and machine learning literature from 2007 to 2017 to identify the new classification approaches that have been investigated to design BCIs. We synthesize these studies in order to present such algorithms, to report how they were used for BCIs, what were the outcomes, and to identify their pros and cons. MAIN RESULTS We found that the recently designed classification algorithms for EEG-based BCIs can be divided into four main categories: adaptive classifiers, matrix and tensor classifiers, transfer learning and deep learning, plus a few other miscellaneous classifiers. Among these, adaptive classifiers were demonstrated to be generally superior to static ones, even with unsupervised adaptation. Transfer learning can also prove useful although the benefits of transfer learning remain unpredictable. Riemannian geometry-based methods have reached state-of-the-art performances on multiple BCI problems and deserve to be explored more thoroughly, along with tensor-based methods. Shrinkage linear discriminant analysis and random forests also appear particularly useful for small training samples settings. On the other hand, deep learning methods have not yet shown convincing improvement over state-of-the-art BCI methods. SIGNIFICANCE This paper provides a comprehensive overview of the modern classification algorithms used in EEG-based BCIs, presents the principles of these methods and guidelines on when and how to use them. It also identifies a number of challenges to further advance EEG classification in BCI.},
+author = {Lotte, F. and Bougrain, L. and Cichocki, A. and Clerc, M. and Congedo, M. and Rakotomamonjy, A. and Yger, F.},
+doi = {10.1088/1741-2552/aab2f2},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Lotte et al. - 2018 - A review of classification algorithms for EEG-based brain-computer interfaces A 10 year update.pdf:pdf},
+isbn = {1741-2560 (Print) 1741-2552 (Linking)},
+issn = {17412552},
+journal = {Journal of Neural Engineering},
+keywords = {Riemannian geometry,brain-computer interfaces,classification,deep learning,electroencephalography,spatial filtering,transfer learning},
+mendeley-groups = {Thesis,Histogram of Oriented Gradients P300},
+month = {jun},
+number = {3},
+pages = {031005},
+pmid = {29488902},
+publisher = {IOP Publishing},
+title = {{A review of classification algorithms for EEG-based brain-computer interfaces: A 10 year update}},
+url = {http://stacks.iop.org/1741-2552/15/i=3/a=031005?key=crossref.9cd2b15ab65c8ad34b475584b43dc509},
+volume = {15},
+year = {2018}
+}
+
+
+@article{Gramfort2013,
+abstract = {Magnetoencephalography and electroencephalography (M/EEG) measure the weak electromagnetic signals generated by neuronal activity in the brain. Using these signals to characterize and locate neural activation in the brain is a challenge that requires expertise in physics, signal processing, statistics, and numerical methods. As part of the MNE software suite, MNE-Python is an open-source software package that addresses this challenge by providing state-of-the-art algorithms implemented in Python that cover multiple methods of data preprocessing, source localization, statistical analysis, and estimation of functional connectivity between distributed brain regions. All algorithms and utility functions are implemented in a consistent manner with well-documented interfaces, enabling users to create M/EEG data analysis pipelines by writing Python scripts. Moreover, MNE-Python is tightly integrated with the core Python libraries for scientific comptutation (NumPy, SciPy) and visualization (matplotlib and Mayavi), as well as the greater neuroimaging ecosystem in Python via the Nibabel package. The code is provided under the new BSD license allowing code reuse, even in commercial products. Although MNE-Python has only been under heavy development for a couple of years, it has rapidly evolved with expanded analysis capabilities and pedagogical tutorials because multiple labs have collaborated during code development to help share best practices. MNE-Python also gives easy access to preprocessed datasets, helping users to get started quickly and facilitating reproducibility of methods by other researchers. Full documentation, including dozens of examples, is available at http://martinos.org/mne.},
+archivePrefix = {arXiv},
+arxivId = {[1] A. Gramfort, “MEG and EEG data analysis with MNE-Python,” Front. Neurosci., vol. 7, no. December, pp. 1–13, 2013.},
+author = {Gramfort, Alexandre and Luessi, Martin and Larson, Eric and Engemann, Denis A. and Strohmeier, Daniel and Brodbeck, Christian and Goj, Roman and Jas, Mainak and Brooks, Teon and Parkkonen, Lauri and H{\"{a}}m{\"{a}}l{\"{a}}inen, Matti},
+doi = {10.3389/fnins.2013.00267},
+eprint = {[1] A. Gramfort, “MEG and EEG data analysis with MNE-Python,” Front. Neurosci., vol. 7, no. December, pp. 1–13, 2013.},
+file = {:Users/rramele/Library/Application Support/Mendeley Desktop/Downloaded/Gramfort et al. - 2013 - MEG and EEG data analysis with MNE-Python(2).pdf:pdf},
+isbn = {1662-4548 (Print) 1662-453X (Linking)},
+issn = {1662453X},
+journal = {Frontiers in Neuroscience},
+keywords = {Electroencephalography (EEG),Magnetoencephalography (MEG),Neuroimaging,Open-source,Python,Software},
+mendeley-groups = {Thesis,Thesis2},
+month = {dec},
+number = {7},
+pages = {267},
+pmid = {24431986},
+publisher = {Frontiers},
+title = {{MEG and EEG data analysis with MNE-Python}},
+url = {http://journal.frontiersin.org/article/10.3389/fnins.2013.00267/abstract},
+volume = {7},
+year = {2013}
+}
+
+@article{Ngo2020,
+abstract = {The accumulation of amyloid-$\beta$, a metabolic residue found in the brain, has been linked to cognitive ageing and Alzheimer's disease. A longitudinal study reveals that the increase of amyloid-$\beta$ can be predicted using simple sleep parameters.},
+author = {Ngo, Hong Viet V. and Claassen, Jurgen and Dresler, Martin},
+doi = {10.1016/j.cub.2020.09.058},
+issn = {18790445},
+journal = {Current Biology},
+mendeley-groups = {Sleep},
+month = {nov},
+number = {22},
+pages = {R1371--R1373},
+pmid = {33202236},
+publisher = {Cell Press},
+title = {{Sleep: Slow Wave Activity Predicts Amyloid-$\beta$ Accumulation}},
+volume = {30},
+year = {2020}
+}
+
+
+
+@article{AASM,
+  title={The AASM manual for the scoring of sleep and associated events},
+  author={Berry, Richard B and Brooks, Rita and Gamaldo, Charlene E and Harding, Susan M and Marcus, C and Vaughn, Bradley V and others},
+  journal={Rules, Terminology and Technical Specifications, Darien, Illinois, American Academy of Sleep Medicine},
+  volume={176},
+  pages={2012},
+  year={2012}
 }
